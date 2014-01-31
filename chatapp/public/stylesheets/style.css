@@ -1,0 +1,20 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#chatEntries{
+	padding: 25px;
+	background-color: khaki;
+	overflow-x: auto; 
+
+}
+
+#nickname{
+	display: inline;
+	padding-right: 5px;
+}

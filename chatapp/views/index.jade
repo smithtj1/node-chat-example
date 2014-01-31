@@ -1,0 +1,14 @@
+include header.jade
+
+body
+	div.container
+		header
+			h1 a chat applicaiton using node and web sockets
+				div#nicknameControls
+					input(type='text')#nicknameInput
+					button#nicknameSet set nickname
+				div#chatControls
+					div#nickname
+					input(type='text')#messageInput
+					button#submit Send
+			div#chatEntries
